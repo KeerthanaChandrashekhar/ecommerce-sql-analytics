@@ -22,9 +22,10 @@ MySQL 8, MySQL Workbench. SQL techniques: JOINs, CTEs, window functions (`LAG`, 
 - `customer_unique_id` identifies a person; `customer_id` changes with every order.
 
 ## Headline numbers (delivered orders)
-- Total orders / customers / revenue / avg order value
-  96478 / 93358 / 13221498.11 / 137.04
-The marketplace delivered 96478 orders worth 13221498.11 BRL, at about 137.04 per order.
+
+| Orders | Customers | Revenue | Avg order value |
+|---|---|---|---|
+| 96,478 | 93,358 | 13.22M BRL | 137.04 BRL |
 
 ## Key insights
 1. **Revenue** grew about 7.5x, from 111.8K BRL (Jan 2017) to 838.6K BRL (Aug 2018). It peaked in Nov 2017 (987.8K BRL, +52.4% MoM, Black Friday) and plateaued through 2018. The Jan 2017 MoM figure is excluded as an outlier because Dec 2016 had only 1 order.
