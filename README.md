@@ -54,5 +54,9 @@ data/     sales_detail.csv, customer_rfm.csv (exported from the views)
 images/   er_diagram.png and result screenshots
 ```
 
-## Next steps
-Tableau dashboard built on `data/sales_detail.csv` and `data/customer_rfm.csv`.
+## Tableau dashboard
+[View the interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/keerthana.c3064/viz/OlistE-CommerceSalesDeliveryAnalytics/Dashboard)
+
+![Dashboard](images/dashboard.png)
+
+Built on `data/sales_detail.csv` and `data/customer_rfm.csv` (exported from the SQL views). It has KPI tiles, monthly revenue, top categories, delivery days by state, review score by delivery status, and RFM segments.
